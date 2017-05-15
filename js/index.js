@@ -109,6 +109,7 @@ function checkSequence() {
 
 // Wrong button function, for when the player inputs the incorrect button
 function wrongButton() {
+  game.allowPress = false;
   $('#score-screen').attr("placeholder", "!!");
   // If Strict Mode is on, reset game - otherwise replay the sequence
   if (game.strict === "on") {
