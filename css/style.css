@@ -1,4 +1,4 @@
-button {
+button, label, input {
   -webkit-appearance: none;
 }
 
@@ -6,8 +6,10 @@ button:focus {
   outline: none;
 }
 
-body {
+html, body {
   background: #333;
+  height: 95%;
+  width: 100%;
 }
 
 p {
