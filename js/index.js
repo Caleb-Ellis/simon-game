@@ -15,8 +15,7 @@ var sounds = [
   "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3",
   "https://s3.amazonaws.com/freecodecamp/simonSound1.mp3",
   "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3",
-  "https://raw.githubusercontent.com/Caleb-Ellis/FreeCodeCamp/master/Extras/Party%20Horn%20Sound%20Effect.mp3"
-]
+];
 var colors = {
   blueOn: '#7baefe',
   blueOff: '#2659a9',
@@ -26,7 +25,7 @@ var colors = {
   yellowOff: '#eec026',
   greenOn: '#7bfb99',
   greenOff: '#26b644'
-}
+};
 
 
 /////* Game functions */////
