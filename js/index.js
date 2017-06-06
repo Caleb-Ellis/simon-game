@@ -10,12 +10,19 @@ var game = {
   allowPress: true,
   active: false
 };
-var sounds = [
+var audio = [
   "https://s3.amazonaws.com/freecodecamp/simonSound3.mp3",
   "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3",
   "https://s3.amazonaws.com/freecodecamp/simonSound1.mp3",
   "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3",
 ];
+var sounds = {
+  '0': new Audio(audio[0]),
+  '1': new Audio(audio[1]),
+  '2': new Audio(audio[2]),
+  '3': new Audio(audio[3]),
+};
+
 var colors = {
   blueOn: '#7baefe',
   blueOff: '#2659a9',
@@ -143,8 +150,8 @@ function playSound(btnNum) {
       $('#btn3').animate({backgroundColor: colors.greenOff}, 400);
       break;
                }
-  var sound = new Audio(sounds[btnNum]);
-  sound.play();
+  //var sound = new Audio(sounds[btnNum]);
+  sounds[btnNum].play();
 }
 
 // Win screen function, for when the player reaches 20 points
