@@ -1,5 +1,7 @@
-# simon-game
-**FCC Front-End certificate - Simon Game** <br>
+# Simon Game
+
+A web version of the age-old memory game Simon. You must remember and repeat a series of button presses, while the speed increases with each step. Features a "Strict Mode" - no errors allowed! <br>
+
 
 >**User Story:** I am presented with a random series of button presses.<br>
 >**User Story:** Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.<br>
@@ -10,4 +12,4 @@
 >**User Story:** I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.<br>
 >**User Story:** I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over.<br>
 
-Head to https://caleb-ellis.github.io/simon-game/ for live demo.
+#### TODO: fix mobile slowdown/layout.
