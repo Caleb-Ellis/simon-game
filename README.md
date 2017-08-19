@@ -2,7 +2,7 @@
 
 A web version of the age-old memory game Simon. You must remember and repeat a series of button presses, while the speed increases with each step. Features a "Strict Mode" - no errors allowed! <br>
 
-![alt text](https://caleb-ellis.github.io/images/simon.png)
+![alt text](https://caleb-ellis.github.io/assets/img/simon.jpg)
 
 >**User Story:** I am presented with a random series of button presses.<br>
 >**User Story:** Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.<br>
